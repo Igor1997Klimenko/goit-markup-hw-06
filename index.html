@@ -386,14 +386,14 @@
                 
                 <div class="footer-form">
                     <p class="foter-end">Подпишитесь на рассылку</p>
-                    <label for="">
+                    <label>
                         <input type="email" class="footer-input" placeholder="E-mail">
                     </label>
                     
-                    <button type="submit" class="butt-from-field">Подписаться</button>
-                    <svg class="icon-send">
+                    <button type="submit" class="butt-from-field">Подписаться<svg class="icon-send">
                         <use href="./images/icons/sprite.svg#icon-icon-send"></use>
-                    </svg>
+                    </svg></button>
+                    
                 </div>
         </div>
     </footer>
@@ -405,18 +405,18 @@
                 </svg>
             </button>
             
-            <form class="modal-group-action" action="" autocomplete="off">
+            <form class="modal-group-action" autocomplete="off">
                 <h2 class="text-modal">Оставьте свои данные, мы вам перезвоним</h2>
                 
                     <label for="name" class="modal-form-group modal-label-form">Имя
-                        <input type="name" name="name" class="modal-group-input" id="name" placeholder=" ">
+                        <input type="text" name="name" class="modal-group-input" id="name">
                         <svg class="modal-icon modal-icon-one">
                             <use href="./images/icons/sprite.svg#icon-name"></use>
                         </svg>
                     </label>
 
-                    <label for="tell" class="modal-form-group modal-label-form">Телефон
-                        <input type="tell" name="tell" class="modal-group-input" id="tell">
+                    <label for="tel" class="modal-form-group modal-label-form">Телефон
+                        <input type="tel" name="tel" class="modal-group-input" id="tel">
                         <svg class="modal-icon modal-icon-two">
                             <use href="./images/icons/sprite.svg#icon-tell"></use>
                         </svg>
@@ -431,13 +431,15 @@
                 
 
                     <label for="feedback" class="modal-form-group next-form modal-label-form ">Комментарий
-                        <textarea class="area-modal modal-group-input" name="" id="feedback"
+                        <textarea class="area-modal modal-group-input" id="feedback"
                      placeholder="Введите текст"></textarea>
                     </label>
 
-                    <div class="next-modal">
-                        <input class="checkbox" type="checkbox" name="" id="checkbox">
-                        <label class="modal-label-form preview-modal" for="checkbox">Соглашаюсь с рассылкой и принимаю
+                    <div class="next-modal">    
+                        <label class="modal-label-form preview-modal">
+                            <input class="checkbox" type="checkbox">
+                            <span class="checkbox-icon"></span>
+                            <span>Соглашаюсь с рассылкой и принимаю</span>  
                             <a href="#" class="link-modal">Условия договора</a>
                         </label>
                     </div>
