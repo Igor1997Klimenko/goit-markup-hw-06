@@ -418,6 +418,7 @@ img {
 }
 
 .modal-group-input {
+  outline: none;
   height: 40px;
   width: 448px;
   border: 1px solid rgba(33, 33, 33, 0.2);
